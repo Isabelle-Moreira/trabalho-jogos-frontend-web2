@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O QUANTO VOCÊ CONHECE A GEOGRAFIA DO BRASIL?</title>
+    <link rel="stylesheet" href="./estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body onload="exibePergunta()">
+    <header>
+        <h1>O QUANTO VOCÊ CONHECE A GEOGRAFIA DO BRASIL?</h1>
+        <img id="logo-bandeira" src="./bandeira-brasil.png">
+    </header>
+    <main>
+        <section id="container-de-bolas">
+            <p>Pontuação: <span id="pontos">0</span></p>
+        </section>
+        <section id="container-de-questoes">
+            <form onsubmit="verifica(event)">
+                
+                <h2>Pergunta <span id="numero-questao">1</span></h2>
+                <p id="pergunta">qual a pergunta?</p>
+                <input type="radio" id="a" name="opcao" value="a" />
+                <label id="labelA" for="a" data-label="a)">Opção A</label>
+                <br>
+                <input type="radio" id="b" name="opcao" value="b"/>
+                <label id="labelB" for="b" data-label="b)">Opção B</label>
+                <br>
+                <input type="radio" id="c" name="opcao" value="c"/>
+                <label id="labelC" for="c" data-label="c)">Opção C</label>
+                <br>
+                <input type="radio" id="d" name="opcao" value="d"/>
+                <label id="labelD" for="d" data-label="d)">Opção D</label>
+                <button type="submit">Continuar</button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="./perguntas.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

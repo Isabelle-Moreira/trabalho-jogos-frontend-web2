@@ -1,0 +1,80 @@
+header{
+    background-color: #004910;
+    color: #f4ff8d;
+    margin: 0%;
+    width: 100%;
+    height:79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: #f4ff8d;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    font-family: "Press Start 2P";
+    font-size: larger;
+    color: #08086b;
+    font-family: "Nunito";
+}
+button{
+    color: #f4ff8d;
+    background-color: #004910;
+
+}
+
+#container-de-questoes{
+    width: 40%;
+    height: 90px;
+}
+
+#container-de-questoes button{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    font-family: "Nunito";
+    border-radius: 50px;
+    box-shadow:  5px 5px 5px rgb(71, 71, 71);
+    border-color: #004910;
+    width: 180px;
+    height: 50px;
+    font-size: large;
+}
+main{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger ;
+}
+form{
+    width: 100%;
+    height: 100%;
+}
+#logo-bandeira{
+    margin-left: 30px;
+
+    height: 70%;
+}
+
+input[type="radio"] + label::before {
+    content: attr(data-label);
+    margin-right: 5px; 
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  /* Estiliza o rótulo que segue o input de rádio quando está selecionado */
+  input[type="radio"]:checked + label::before {
+    background-color: #08086b; 
+    color: #fff; 
+    border-radius: 50%; 
+    padding: 4px;
+  }
