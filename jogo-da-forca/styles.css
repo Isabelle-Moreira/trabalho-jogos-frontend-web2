@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4ffa4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url('https://img.elo7.com.br/product/original/360C21B/kit-clipart-frutinhas-fofas-frutas-coloridas-papel-festa.jpg');
+  }
+  
+  header{
+    background-color: #c175d8;
+    color: #f4ff8d;
+    margin: 0%;
+    width: 100%;
+    height:79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header h1{
+    color: #e7ce3e;
+  }
+  .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #c175d8;
+  }
+  
+  #forca {
+    margin-bottom: 20px;
+  }
+  
+  #forca-img {
+    max-width: 100%;
+  }
+  
+  #palavraAdivinhada {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #letrasErradas {
+    color: #f00;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #letraInput {
+    width: 40px;
+    text-align: center;
+  }
+  
+  #adivinharLetra {
+    padding: 5px 10px;
+    background-color: #96e68f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #adivinharLetra:hover {
+    background-color: #669961;
+    transition: 0.3s;
+  }
+  
